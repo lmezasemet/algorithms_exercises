@@ -25,7 +25,7 @@ import java.util.NoSuchElementException;
  *
  * @param <Item>
  */
-public class CircularLinkedList<Item> implements Iterable<Item> {
+public class  CircularLinkedList<Item> implements Iterable<Item> {
 
     private long nOp = 0; // count the number of operations
     private int n;          // size of the stack
